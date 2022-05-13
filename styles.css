@@ -187,6 +187,10 @@ article {
 .right-second .card {
   padding: 1.3rem 3.2rem;
   margin: 1.3rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .row {
@@ -561,7 +565,6 @@ footer {
     top: 20px;
     right: 28px;
     fill: whitesmoke;
-    background-color: orangered;
   }
 
   ul {
